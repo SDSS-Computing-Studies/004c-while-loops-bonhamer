@@ -33,7 +33,7 @@ username = ""
 while True:
     username = str(input("Enter username: "))
     if username != "admin":
-        print("acces denied")
+        print("Access denied")
     else:
         break
 while True:
@@ -43,4 +43,4 @@ while True:
     else:
         break
 
-print("Access granted:")
+print("Access granted")
